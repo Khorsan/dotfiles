@@ -4,7 +4,7 @@ all:
 stow:
 	@stow -S -v -t ${HOME} .
 
-simulate:
+dry:
 	@stow -n -v -t ${HOME} .
 
 debug:
