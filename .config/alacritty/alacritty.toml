@@ -1,0 +1,22 @@
+[window]
+
+dimensions = { columns = 80, lines = 25 }
+
+opacity = 0.9
+
+padding.x = 0
+padding.y = 0
+dynamic_padding = true
+
+decorations = "None"
+decorations_theme_variant = "Dark" # "Dark"
+
+[font]
+
+normal.family = "Droid Sans Mono"
+bold.family = "Droid Sans Mono"
+italic.family = "Droid Sans Mono"
+bold_italic.family = "Droid Sans Mono"
+
+size = 10.0
+

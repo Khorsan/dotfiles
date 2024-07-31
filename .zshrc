@@ -70,3 +70,13 @@ eval "$(fzf --zsh)"
 
 alias vim='nvim'
 alias vimrc='nvim ~/.config/nvim/init.vim'
+alias zshrc='nvim ~/.zshrc'
+alias sudo='sudo ' # allows alias to be used with sudo
+alias dotfiles='cd ~/dev/dotfiles'
+
+# Autostart TMUX, one session per terminal
+if [ -x "$(command -v tmux)" ] && [ -n "${DISPLAY}" ] && [ -z "${TMUX}" ]; then
+    tmux new-session && exit  #-A > /dev/null 2>&1
+fi
+
+
